@@ -1,0 +1,51 @@
+.dropdownSection {
+  background-color: white;
+  left: -326px;
+  top: 44px;
+  border: 1px solid gray;
+  position: absolute;
+  width: 1200px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.dropdownSection div {
+  width: 120px;
+  height: 150px;
+  display: block;
+  margin: 10px;
+  display: block;
+  text-align: center;
+}
+
+.dropdownSection div img {
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  border-radius: 100%;
+  border: 1px solid rgb(180, 180, 180);
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.dropdownSection div img:active {
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  border-radius: 100%;
+  border: 1px solid #206fee;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.dropdownSection p {
+  color: black;
+  margin-top: 10px;
+}
+.dropdownSection p:active {
+  color: #206fee;
+  margin-top: 10px;
+}

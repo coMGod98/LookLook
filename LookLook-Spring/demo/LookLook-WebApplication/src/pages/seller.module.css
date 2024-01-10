@@ -1,0 +1,171 @@
+.sellerHeader {
+    height: 120px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.sellerHeader img {
+    width: 140px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.sellerHeader p {
+    color: #545454;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 182px;
+    margin-top: -22px;
+}
+
+.sellerSection {
+    width: 1600px;
+    display: flex;
+}
+
+.sellerMenu {
+    width: 300px;
+    border-right: 1px solid rgb(180, 180, 180);
+}
+
+.sellerMenu .sellerInfoWrap {
+    background-color: #25324f;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sellerMenu .sellerInfoWrap h3 {
+    font-size: 17px;
+    color: white;
+    margin-left: 12px;
+}
+
+.sellerMenu .sellerInfoWrap img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 13px;
+    cursor: pointer;
+}
+
+.sellerMenu .menuDiv {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding: 10px;
+    color: black;
+}
+
+
+
+
+
+.sellerWorkSpace {
+    display: block;
+    padding: 20px;
+}
+
+.sellerWorkSpace .workHeader {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 15px
+}
+
+.sellerWorkSpace .searchWrap {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sellerWorkSpace .searchWrap input {
+    width: 200px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.sellerWorkSpace .searchWrap button {
+    color: white;
+    background-color: #25324f;
+    padding: 4px 20px;
+}
+
+.sellerWorkSpace .workWrap {
+    border: 1px solid #25324f;
+    width: 1200px;
+    height: 600px;
+    overflow: auto;
+}
+
+.sellerWorkSpace .deleteBtn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.sellerWorkSpace .deleteBtn button {
+    background-color: #25324f;
+    color: white;
+    padding: 4px 15px;
+    margin-left: 5px;
+}
+
+
+
+.sellerWorkSpace .regiWrap {
+    padding: 15px 15px;
+    display: flex;
+    width: 1200px;
+    background-color: #e5f1f8;
+    margin-top: 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+.regiWrap .regiTag {
+    width: 200px;
+}
+.regiWrap .regiInput input {
+    padding: 4px;
+    display: block;
+}
+.regiWrap .regiInput .longInput{
+    width: 450px;
+}
+.regiWrap .regiInput p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.regiWrap .regiInput .inputWrap {
+    display: flex;
+}
+.regiWrap .regiInput button{
+    background-color: white;
+    padding: 3px 15px;
+    margin-right: 5px;
+}
+.regiWrap .regiInput .radioInput{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin: 3px;
+    vertical-align: middle;
+}
+.regiWrap .regiInput textarea {
+    resize: none;
+}
+.regiBtn, .blueBtn{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-right: 5px;
+    font-size: 15px;
+    padding: 5px 16px;
+    background-color: #25324f;
+    color: white;
+}
+
+.listEmpty {
+    font-size: 15px;
+    color: grey;
+    padding: 8px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}

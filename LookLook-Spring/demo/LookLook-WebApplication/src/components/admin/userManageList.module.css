@@ -1,0 +1,42 @@
+
+.section {
+  font-size: 15px;
+  padding: 8px;
+  display: flex;
+  text-align: middle;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.section div {
+  display: flex;
+  align-items: center;
+}
+
+
+.item1 {
+  width: 100px;
+}
+.item2 {
+  width: 160px;
+}
+.item3 {
+  width: 180px;
+}
+.item4 {
+  width: 230px;
+}
+.item5 {
+  width: 180px;
+}
+.item6 {
+  width: 310px;
+}
+.item7 {
+  width: 20px;
+}
+.item7 img {
+  margin-right: 5px;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}

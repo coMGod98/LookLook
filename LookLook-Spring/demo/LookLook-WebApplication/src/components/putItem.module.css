@@ -1,0 +1,37 @@
+.putItemDiv {
+  align-items: center;
+  display: flex;
+  padding: 15px 10px;
+  border-top: 1px solid gray;
+}
+
+.putItemDiv p {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.putItemDiv .nameDiv {
+  width: 55%;
+}
+
+.putItemDiv .quantDiv {
+  width: 20%;
+  display: flex;
+  justify-items: center;
+}
+
+.putItemDiv .quantDiv input {
+  width: 30px;
+}
+
+.putItemDiv .quantDiv button {
+  background-color: aliceblue;
+  width: 24px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.putItemDiv .priceDiv {
+  width: 25%;
+  text-align: center;
+}

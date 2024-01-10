@@ -1,0 +1,32 @@
+.section {
+  color: white;
+  background-color: #25324f;
+  font-size: 15px;
+  padding: 8px;
+  display: flex;
+  text-align: middle;
+}
+
+.section div {
+  display: flex;
+  align-items: center;
+}
+
+.item1 {
+  width: 100px;
+}
+.item2 {
+  width: 160px;
+}
+.item3 {
+  width: 180px;
+}
+.item4 {
+  width: 230px;
+}
+.item5 {
+  width: 180px;
+}
+.item6 {
+  width: 310px;
+}
